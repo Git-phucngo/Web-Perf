@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+  max-width: 70%;
+  margin: auto;
+  max-height: 70%;
+
+}
+
+h3{
+	line-height: 0.1;
+}
+h5{
+	line-height: 0.2;
+}

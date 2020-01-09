@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+  max-width: 70%;
+  margin: auto;
+  max-height: 70%;
+
+}
+
+td, th{
+	text-align: center;	
+}
+
+#weddingContent {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#weddingContent td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#weddingContent tr:nth-child(even){background-color: #f2f2f2;}
+
+#weddingContent tr:hover {background-color: #ddd;}
+
+#weddingContent th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
