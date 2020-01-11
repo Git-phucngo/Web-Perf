@@ -1,6 +1,19 @@
-* {
-  box-sizing: border-box;
+
+.pictureReview{
+	float: left;
+	padding: 15px;
 }
+
+.centerFrame{
+  text-align: center;
+  margin-left: 150px;
+}
+
+.album{
+	width: 40%;
+	float: right;
+}
+
 
 
 h1 {
@@ -10,43 +23,16 @@ h1 {
 
 .row {
   margin: 8px -16px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-	display: inline-block;
-}
-
-img{
-	width: 100%;
-}
-
-
-/* Create three equal columns that floats next to each other */
-.column {
+  display: flex;
   width: 250px;
 }
 
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+img{
+	width: 75%;
 }
 
-/* Content */
 
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
 
 /* Style the buttons */
 .btn {
