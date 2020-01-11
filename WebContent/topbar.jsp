@@ -10,7 +10,6 @@
 <body>
 	<div class="navbar">
   <a href="index.jsp">Home</a>
-  <a href="#news">Photo</a>
   <div class="dropdown">
     <button class="dropbtn">Studio Services
       <i class="fa fa-caret-down"></i>

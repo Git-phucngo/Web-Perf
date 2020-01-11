@@ -1,105 +1,69 @@
-@charset "ISO-8859-1";
-
-
-body, html {
-	height: 100%;
-	margin: 0;
-}
-
-
-
-
 * {
   box-sizing: border-box;
 }
 
-.BtnContainer {
-	position: fixed;
-	top: 50%;
-	left: 2%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
 }
 
-.BtnContainer button {
-	display: block;
-	color: white;
-	padding: 20px;
-	border: none;
-	outline: none;
-	text-align: center;
-	cursor: pointer;
-	transition: 0.3s;
-	background-color: #4BABF3;
-	border-radius: 5px;
-	margin: 5px;
+.row {
+  margin: 8px -16px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+	display: inline-block;
+}
+
+img{
 	width: 100%;
-
-}
-
-.btn {
-	position: -webkit-sticky;
-	position: sticky;
-	
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-	background-color: #ddd;
 }
 
 
-.photoContainer {
-	float: right;
-	width: 90%;
-	/*Height View is max min is always more than 100%*/
-	height: 100vm;
-	min-height: 100%;
-	/**/
-	display: -ms-flexbox; /* IE10 */
-  	display: flex;
-  	-ms-flex-wrap: wrap; /* IE10 */
-  	flex-wrap: wrap;
-  	margin-left: 50px; 
-  	padding: 0 4px 0 50px;
-}
-
-
-
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
-  -ms-flex: 17%; /* IE10 */
-  flex: 17%;
-  max-width: 17%;
-  padding: 0 4px;
+  width: 250px;
 }
 
-.column img {
-  margin-top: 8px;
-  width: 100%;	
-  vertical-align: middle;
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .photoContainer {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+/* Content */
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-  .BtnContainer{
-    max-width: 50%;
-  
-  }
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
 }
 
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
