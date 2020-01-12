@@ -3,6 +3,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body, html {
+  height: 95%;
+  background-image: url("IMG/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
 * {
   box-sizing: border-box;
 }

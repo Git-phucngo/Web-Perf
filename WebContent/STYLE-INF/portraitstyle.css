@@ -1,6 +1,15 @@
 @charset "ISO-8859-1";
 
 
+body, html {
+  /*height: 95%;*/
+  background-image: url("IMG/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
 .content {
   max-width: 70%;
   margin: auto;

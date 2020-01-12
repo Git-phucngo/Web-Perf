@@ -1,9 +1,8 @@
 
 
 body, html {
-  /*height: 95%; */
+  /*height: 95%;*/
   background-image: url("IMG/bg.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 

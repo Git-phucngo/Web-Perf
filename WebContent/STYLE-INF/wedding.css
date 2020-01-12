@@ -2,6 +2,14 @@
 
 @charset "ISO-8859-1";
 
+body, html {
+  /*height: 95%; */
+  background-image: url("IMG/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 
 .content {
