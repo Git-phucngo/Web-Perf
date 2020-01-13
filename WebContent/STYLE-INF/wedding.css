@@ -35,8 +35,10 @@ td, th{
 }
 
 #weddingContent tr:nth-child(even){background-color: #f2f2f2;}
+#weddingContent tr:nth-child(odd){background-color: #ddd;}
 
-#weddingContent tr:hover {background-color: #ddd;}
+#weddingContent tr:hover {background-color: #778899;}
+
 
 #weddingContent th {
   padding-top: 12px;

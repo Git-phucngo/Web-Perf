@@ -31,9 +31,10 @@ td, th{
   padding: 8px;
 }
 
-#colorbus tr:nth-child(even){background-color: #f2f2f2;}
+#colorbus tr:nth-child(odd){background-color: #f2f2f2;}
+#colorbus tr:nth-child(even){background-color: #ddd;}
+#colorbus tr:hover {background-color: #778899;}
 
-#colorbus tr:hover {background-color: #ddd;}
 
 #colorbus th {
   padding-top: 12px;
